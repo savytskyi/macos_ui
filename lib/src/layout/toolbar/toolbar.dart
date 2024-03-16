@@ -259,7 +259,7 @@ class _ToolBarState extends State<ToolBar> {
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(
         padding: EdgeInsets.only(
-          left: !kIsWeb && isMacOS ? 70 : 0,
+          left: !kIsWeb && isMacOS ? 0 : 0,
         ),
       ),
       child: _WallpaperTintedAreaOrBlurFilter(
